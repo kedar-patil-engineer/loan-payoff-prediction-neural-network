@@ -56,6 +56,25 @@ Jupyter Notebook.
 - `*.pdf` - rendered notebook and project report
 - `lending_club_info.csv` - feature data dictionary
 
+## How to Run
+
+```bash
+git clone https://github.com/kedar-patil-engineer/loan-payoff-prediction-neural-network.git
+cd loan-payoff-prediction-neural-network
+python -m venv venv
+venv\Scripts\activate          # Windows  (use: source venv/bin/activate on macOS/Linux)
+pip install -r requirements.txt
+jupyter notebook
+```
+
+Then open `Loan payoff prediction deep learning neural network model.ipynb` and run all
+cells. Download `lending_club_loan_two.csv` from the Kaggle link above and place it in
+this folder first, since the full dataset is not bundled in the repository.
+
+## License
+
+This project is released under the MIT License. See [LICENSE](LICENSE).
+
 ## Author
 
 Kedar Patil - MS Business Analytics, California State University, East Bay
