@@ -45,6 +45,12 @@ The target variable indicates whether a borrower **fully paid** the loan or had 
 The model achieves approximately **89% accuracy** in predicting whether a borrower
 will repay the loan.
 
+### Training history
+
+![Training and validation loss](assets/training-loss.png)
+
+Training and validation loss across epochs for the Keras neural network.
+
 ## Tech Stack
 
 Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, TensorFlow / Keras,
